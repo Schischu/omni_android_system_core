@@ -480,7 +480,7 @@ service logd /system/bin/logd
     socket logdw dgram 0222 logd logd
     seclabel u:r:logd:s0
 
-service healthd /sbin/healthd
+service healthd /system/bin/healthd
     class core
     critical
     seclabel u:r:healthd:s0
